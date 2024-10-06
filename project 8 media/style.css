@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    display: flex;
+    font-family: "fonts";
+}
+.img1 {
+    width: 469px;
+    height: 832px;
+}
+.conteiner {
+    width: 808px;
+    height: 832px;
+    background-color: #FFFFFF;
+}
+.box {
+    width: 340px;
+    height: 372px;
+    margin-left: 234px;
+    margin-top: 230px;
+}
+.box1 {
+    width: 340px;
+    height: 73px;
+}
+.box2 {
+    width: 190px ;
+    height: 25px ;
+    font-size: 18px;
+    color: #1F2937;
+}
+.box3 {
+    width: 222px;
+    height: 24px;
+    font-size: 16px;
+    color: #6B7280;
+}
+.box4 {
+    width: 340px;
+    height: 48px;
+    margin-top:12px;
+}
+.input1 {
+    width: 281px;
+    height: 46px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 2px;
+    background-color: #4285F4;
+    border: #4285F4;
+    position: absolute;
+}
+.icon1 {
+    width: 43px;
+    height: 43px;
+    position: relative;
+    top: -1px;
+    left: 2px;
+    border-radius: 2px 0px 0px 2px;
+}
+.icon2 {
+    width: 47px;
+    height: 47px;
+    position: relative;
+    top: 1px;
+    left: 248px;
+}
+.box5 {
+    width: 340px;
+    height: 25px;
+    top: 12px;
+    position: relative;
+}
+.hr {
+    background-color: #E5E7EB;
+    top: 12px;
+    width: 340px;
+    height: 1px;
+    position: relative;
+}
+.input2 {
+    width: 335px;
+    height: 48px;
+    position: relative;
+    top: 24px;
+    border-radius: 4px;
+    border: 1px solid #E5E7EB;
+    text-align: center;
+    font-size: 14px;
+    color: #D1D5DB;
+}
+.icon3 {
+    position: relative;
+    top: -25px;
+}
+.box6 {
+    width: 340px;
+    position: relative;
+    top: -15px;
+    display: flex;
+}
+.box7 {
+    width: 140px;
+    height: 20px;
+    font-size: 16px;
+    color: #6B7280;
+    left: 6px;
+    top: 6px;
+    position: relative;
+}
+.box8 {
+    width: 80px;
+    height: 20px;
+    left: 8px;
+    position: relative;
+    top: 6px;
+    font-size: 16px;
+}
+.input3 {
+    width: 340px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: #724DFF;
+    text-align: center;
+    color: #FFFFFF;
+    border: #724DFF;
+    font-size: 16px;
+}
+.box10 {
+    width: 330px;
+    height: 26px;
+    left: 3px;
+    position: relative;
+    color: #6B7280;
+    font-size: 14px;
+    top: 20px;
+    display: flex;
+}
+@font-face {
+    font-family: fonts;
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+.box12 {
+    width: 250px;
+    position: relative;
+    left: -10px;
+}
+.box13 {
+    width: 250px;
+    position: relative;
+}
+@media screen and (max-width :767px) {
+    .box {
+        width: 360px;
+        height: 520px;
+    }
+    .icon2 {
+        border-radius: 30px;
+    }
+    .input2 {
+        border-radius: 50px;
+    }
+    .input3 {
+        width: 121px;
+        height: 48px;
+        border-radius: 6px;
+        margin-left: 95.5px;
+    }
+}
